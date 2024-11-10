@@ -1,0 +1,21 @@
+package template 
+
+import "strconv"
+
+templ Index(counter int) {
+	<html>
+		<head>
+			<meta charset="UTF-8"/>
+			<title>HTMX-GO-TEMPL</title>
+			<script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+		</head>
+		<body>
+			<div class="flex flex-col justify-center items-center h-screen">
+				<button class="border rounded p-2" hx-post="/add" hx-target="body">Add</button>
+				<p>{ strconv.Itoa(counter) }</p>
+			</div>
+		</body>
+	</html>
+}
+
