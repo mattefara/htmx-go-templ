@@ -2,7 +2,7 @@ module github.com/mattefara/htmx-go-templ
 
 go 1.25.0
 
-toolchain go1.25.6
+toolchain go1.25.7
 
 require (
 	github.com/a-h/templ v0.3.977
