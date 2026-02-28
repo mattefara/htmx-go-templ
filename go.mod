@@ -5,7 +5,7 @@ go 1.25.0
 toolchain go1.26.0
 
 require (
-	github.com/a-h/templ v0.3.977
+	github.com/a-h/templ v0.3.1001
 	github.com/labstack/echo/v4 v4.15.1
 	github.com/labstack/echo/v5 v5.0.4
 )
