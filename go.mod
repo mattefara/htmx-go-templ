@@ -7,7 +7,7 @@ toolchain go1.26.2
 require (
 	github.com/a-h/templ v0.3.1001
 	github.com/labstack/echo/v4 v4.15.2
-	github.com/labstack/echo/v5 v5.1.0
+	github.com/labstack/echo/v5 v5.1.1
 )
 
 require (
